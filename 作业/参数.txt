@@ -1,0 +1,14 @@
+params ={'learning_rate':0.1,
+        'n_estimators':1000,  #数值大没关系，cv会自动返回合适的n_estimators
+        'max_depth':5,
+        'min_child_weight':1,
+        'gamma':0,
+        'subsample':0.3,
+        'colsample_bytree':0.8,
+        'colsample_bylevel':0.7,
+        'objective':'multi:softprob',
+        'nthread':-1,
+        'seed':3,
+        'num_class':3,
+        'early_stopping_rounds':10,
+        'metrics':'mlogloss'}
